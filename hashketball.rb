@@ -174,6 +174,7 @@ def big_shoe_rebounds
     end
     binding.pry
   end
+  points
 end
 
 def team_names
