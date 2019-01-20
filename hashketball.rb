@@ -149,7 +149,7 @@ def player_numbers (team_name)
   elsif game_hash[:home][:team_name].include?(team_name)
     game_hash[:home][:players].each do |str1, stats|
       array << stats[:points]
-    end  end
+  end
 end
 
 def team_names
