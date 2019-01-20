@@ -158,9 +158,9 @@ end
 def player_stats (name)
   if game_hash[:home][:team_name].include?(name)
     game_hash[:home][:players][name]
-    binding.pry
   elsif game_hash[:away][:team_name].include?(name)
     game_hash[:away][:players][name]
+    binding.pry
   end
 end
 
