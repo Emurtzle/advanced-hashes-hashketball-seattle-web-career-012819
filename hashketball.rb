@@ -165,9 +165,9 @@ end
 
 def big_shoe_rebounds
   game_hash.each do |location|
-    location[:players].each do |name|
+    #location[:players].each do |name|
       binding.pry
-    end
+    #end
   end
 end
 
