@@ -163,6 +163,12 @@ def player_stats (name)
   end
 end
 
+def big_shoe_rebounds
+  game_hash.each do |location|
+
+  end
+end
+
 def team_names
   array = []
   array << game_hash[:home][:team_name]
