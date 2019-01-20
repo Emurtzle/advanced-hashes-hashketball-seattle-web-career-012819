@@ -172,7 +172,6 @@ def big_shoe_rebounds
       max_shoe = stats[:shoe]
       points = stats[:points]
     end
-    binding.pry
   end
   points
 end
