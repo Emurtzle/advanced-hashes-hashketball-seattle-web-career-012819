@@ -146,6 +146,7 @@ def player_numbers (team_name)
   if game_hash[:home][:team_name].include?(name)
     game_hash[:home][:players].each do |name|
       binding.pry
+    end
   elsif game_hash[:away][:team_name].include?(name)
   end
 end
