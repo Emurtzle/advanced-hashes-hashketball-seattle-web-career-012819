@@ -150,6 +150,7 @@ def player_numbers (team_name)
     game_hash[:away][:players].each do |str1, stats|
       array << stats[:points]
   end
+  array
 end
 
 def team_names
