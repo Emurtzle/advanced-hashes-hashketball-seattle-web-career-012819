@@ -164,10 +164,8 @@ def player_stats (name)
 end
 
 def big_shoe_rebounds
-  game_hash.each do |location|
-    #location[:players].each do |name|
-      binding.pry
-    #end
+  game_hash[:home][:players].each do |name|
+    binding.pry
   end
 end
 
