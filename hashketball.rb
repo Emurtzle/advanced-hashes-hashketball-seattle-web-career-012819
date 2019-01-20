@@ -143,11 +143,11 @@ end
 
 def player_numbers (team_name)
   array = []
-  if game_hash[:home][:team_name].include?(name)
+  if game_hash[:home][:team_name].include?(team_name)
     game_hash[:home][:players].each do |str1|
       binding.pry
     end
-  elsif game_hash[:away][:team_name].include?(name)
+  elsif game_hash[:away][:team_name].include?(team_name)
   end
 end
 
