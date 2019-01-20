@@ -164,7 +164,7 @@ def player_stats (name)
 end
 
 def big_shoe_rebounds
-  game_hash[:home][:players].each do |name|
+  game_hash[:home][:players].each do |name, stats|
     binding.pry
   end
 end
